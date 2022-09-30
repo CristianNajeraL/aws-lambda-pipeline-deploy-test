@@ -9,5 +9,5 @@ def lambda_handler(event, context):
     :return: test
     """
     return {
-        'test': 'test2'
+        'test': 'test3'
     }
