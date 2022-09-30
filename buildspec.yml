@@ -4,7 +4,7 @@ phases:
   install:
     runtime-versions:
       python: 3.9
-      docker: 19
+      docker: 20
   pre_build:
     commands:
       - echo Accessing environment variables
