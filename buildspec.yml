@@ -16,7 +16,6 @@ phases:
   build:
     commands:
       - echo Building the Docker image...
-      - cat ./Dockerfile
       - docker build -t $REPOSITORY_URI:latest -f ./random/random/Dockerfile .
       - docker tag $REPOSITORY_URI:latest $REPOSITORY_URI:$IMAGE_TAG
   post_build:
